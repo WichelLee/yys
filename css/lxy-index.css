@@ -1,0 +1,1294 @@
+.ghost {
+    position:fixed;
+    width: 100%;
+    height: 176px;
+    bottom:0px;
+    /* background-color: #ccc; */
+    z-index:999;
+}
+.ghost ul {
+    position: absolute;
+    left: -585px;
+    width: 650px;
+    height: 176px;
+}
+.ghost li {
+    float: left;
+    width: 171px;
+    height: 176px;
+    margin-right: 40px;
+}
+.ghost .ghost-one {
+    display:block;
+    width: 151px;
+    height: 176px;
+    background: url(../images/zhuye-lxy/ghost1.png) no-repeat 0 bottom;
+}
+.ghost .ghost-one.active {
+    background-position: -151px bottom;
+}
+.ghost .ghost-two {
+    display:block;
+    width: 171px;
+    height: 176px;
+    background: url(../images/zhuye-lxy/ghost3.png) no-repeat 0 bottom;
+}
+.ghost .ghost-two.active {
+    background-position: -171px bottom;
+}
+.ghost .ghost-three {
+    display:block;
+    width: 171px;
+    height: 176px;
+    background: url(../images/zhuye-lxy/ghost2.png) no-repeat 0 bottom;
+}
+.ghost .ghost-three.active {
+    background-position: -171px bottom;
+}
+/*************************header BEGIN**********************/
+.header {
+    height: 55px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #FBFBFB;
+    margin: auto;
+    /* border-bottom: 1px solid #fff; */
+}
+.header  .box {
+    position: relative;
+}
+.header img {
+    /* display:inline-block; */
+   /* margin-right: 490px; */
+   margin-top: 5px;
+   margin-right: 10px;
+   vertical-align: top;
+}
+.header .header-ad {
+    /* position: relative; */
+    display:inline-block;
+    width: 420px;
+    height: 55px;
+    background: url(../images/zhuye-lxy/5bc003077f9d2a2e79cb57f7VHIT4K8Q.jpg) no-repeat;
+}
+.header .header-big-ad {
+    position: absolute;
+    left: 80px;
+    top: 55px;
+    display:none;
+    width: 960px;
+    height: 250px;
+    background:url(../images/zhuye-lxy/5bc00307a7f2521f50f346807KscQDjb.jpg) no-repeat;
+    z-index:3;
+    box-shadow:0 -1px 1px 1px rgba(241, 237, 237, 0.39);
+}
+.header a {
+    display:inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 52px;
+    font: 12px/52px 'Microsoft Yahei';
+    color:#333;
+}
+.header a:hover {
+    border-bottom: 3px solid #BC2E2E;
+    background: url(../images/zhuye-lxy/top_nav_bg_92e1677.png) repeat-x 0 -200px;          
+}
+.header .fr {
+    margin-right: 90px;
+}
+/*************************header END**********************/
+.nav {
+    height: 60px;
+    background: url(../images/zhuye-lxy/nav_back_bg_fd2505e.jpg) repeat-x;
+    text-align: center;
+    margin:0 auto;
+    z-index:999;
+}
+.nav ul {
+    width: 1260px;
+    position:absolute;
+    height: 60px;
+    /* overflow: hidden; */
+}
+.nav li {
+    float: left;
+    width: 118px;
+    color:#fff;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+}
+.nav li a {
+    color:#fff;
+    height: 60px;
+    line-height: 60px;
+}
+.nav li span.span-active {
+    color:#C3A060;
+}
+.nav li.nav-active {
+    background: url(../images/zhuye-lxy/nav_bg1_d44f09d.jpg) no-repeat;
+    cursor:pointer;
+    color:black;
+}
+.nav ul .search {
+    width: 60px;
+}
+.nav .search a {
+    display:inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    /* background:url(../images/zhuye-lxy/search_b180dd5.png) no-repeat center; */
+}
+.nav .search img {
+    transform: rotateY(0deg);
+    transition:all 1s;
+}
+.nav .search img:hover {
+    transform: rotateY(180deg);
+}
+/*************************nav BEGIN**********************/
+
+/*************************nav END**********************/
+.banner {
+    position:relative;
+    height: 844px;
+    margin: auto;
+    background: url(../images/zhuye-lxy/banner_a6225ba.jpg) center;
+}
+.banner .logo1 {
+    display:inline-block;
+    background: url(../images/zhuye-lxy/2year_logo_aadb997.png);
+    margin-top: 33px;
+    margin-left: 30px;
+    width: 104px;
+    height: 98px;
+}
+.banner-bottom {
+    height: 287px;
+    /* width: 100%; */
+    margin:0 auto;
+    background:url(../images/zhuye-lxy/bot_head_bg_450ba6b.png) repeat-x bottom;
+    position:absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.banner-bottom .box {
+    height: 287px;
+}
+.banner-bottom-left {
+    width: 145px;
+    height: 287px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat 0 0;
+    text-align: center;
+    margin-right: 14px;
+}
+.banner-bottom-left .one-code {
+    display:block;
+    width: 107px;
+    height: 107px;
+    margin:45px auto 0;
+}
+.banner-bottom-left  .red-line {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    top: -7px;
+    left: 0;
+    right: 0;
+    margin:auto;
+    background: url(../images/zhuye-lxy/line_dd0b705.png) no-repeat center;
+}
+.banner-bottom-left .two-code {
+    display:block;
+    width: 107px;
+    height: 107px;
+    margin:10px auto 0;
+}
+.banner-bottom-right .news-title {
+    width: 162px;
+    height: 33px;
+    background:url(../images/zhuye-lxy/bot_head_bg_450ba6b.png) repeat-x;
+    color:#C2A060;
+    text-align: center;
+    padding-top: 10px;
+}
+/* .banner-bottom-right .news-title-line {
+    ??????????????????????????
+} */
+.banner-bottom-right .news-comment {
+    padding-top: 20px;
+    height:178px;
+    width: 1020px;
+    /* background-color: pink; */
+    position:relative;
+    overflow: hidden;
+}
+.banner-bottom-right .news-comment .psr {
+    position: relative;
+}
+.banner-bottom-right .news-comment .psr i {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    line-height: 18px;
+    background-color: #F24853;
+    color:#fff;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+    left: 0;
+    top: 0;
+}
+.banner-bottom-right .news-comment ul {
+    width: 4160px;
+    position:absolute;
+}
+.banner-bottom-right .news-comment li {
+    float: left;
+    margin-right: 20px;
+    background-color: #fff;
+    width: 240px;
+    height: 177px;
+}
+.banner-bottom-right .news-comment li:hover {
+    cursor:pointer;
+}
+.banner-bottom-right .news-comment-ad {
+    padding: 10px 20px 0 15px;
+    /* background: pink; */
+}
+.banner-bottom-right .news-comment-ad p {
+    height: 19px;
+}
+.banner-bottom-right .news-comment-title {
+    padding: 20px 20px 0 20px;
+    /* background: pink; */
+}
+.banner-bottom-right .news-comment-title img {
+    margin-top: 12px;
+    width: 41px;
+}
+.banner-bottom-right .news-comment-title h5 {
+    font-weight: 700;
+    height: 70px;
+}
+.banner-bottom-right .news-comment-title p {
+    height: 42px;
+    color:#666;
+}
+.banner-bottom-right .prev-next {
+    margin-top: 15px;
+    /* background-color: pink; */
+} 
+/* .banner-bottom-right .prev-next #prev-news {
+    visibility:hidden;
+} */
+.banner-bottom-right .prev-next a {
+    display:inline-block;
+    color:#fff;
+    margin-right: 18px;
+}
+.banner-bottom-right .prev-next a:hover {
+    border-bottom: 1px solid #fff;
+}
+.banner-bottom-right .prev-next span {
+    color:#fff;
+    vertical-align: top;
+} 
+.banner-bottom-right .prev-next .more {
+    color:#fff;
+    margin-right: 0;
+    margin-left: 16px;
+    background: url(../images/zhuye-lxy/more_53e1b68.png) no-repeat left center;
+    padding-left: 16px;
+}
+/*************************banner BEGIN**********************/
+
+/*************************banner END**********************/
+
+/*************************section BEGIN**********************/
+.section-one {
+    height: 609px;
+    margin-top: 43px;
+}
+.safe-world {
+    float: left;
+    left: 0;
+    top: 0;
+    width: 54px;
+    height: 148px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat -980px -295px;
+}
+.section-one .gold-main {
+    height: 40px;
+}
+.section-one .god-main ul {
+    height: 32px;
+    float: left;
+    border: 2px solid #C2A060;
+    padding: 2px;
+    /* background-color: pink; */
+}
+.section-one .god-main li{
+    float: left;
+    text-align: center;
+}
+.section-one .god-main a {
+    display:inline-block;
+    font-size: 14px;
+    width: 96px;
+    height: 32px;
+    line-height: 32px;
+}
+.section-one .god-main a.active {
+    background-color: #C2A060;
+    color:#fff;
+}
+.section-one .god-main .search {
+    width: 182px;
+    height: 32px;
+    border-bottom: 1px solid #C2A060;
+}
+.section-one .god-main .search input {
+    height: 32px;
+    font-size: 12px;
+    border: 0;
+    vertical-align: top;
+}
+.section-one .god-main .search button {
+    border:0;
+    width: 32px;
+    height: 32px;
+    background: url(../images/zhuye-lxy/search_b180dd5.png) no-repeat center ;
+    transform:rotateY(0deg);
+    transition:all 1s;
+}
+.section-one .god-main .search button:hover {
+    transform:rotateY(180deg);
+}
+.section-one .god-main .search button:hover {
+    cursor:pointer;
+}
+.section-one .god-ph {
+    padding-top: 212px;
+    height: 320px;
+    /* background-color: pink; */
+}
+.section-one .god-ph .prev-god,.section-one .god-ph .next-god {
+    display:inline-block;
+    position:relative;
+    padding: 15px 30px 0;
+    width: 18px;
+    height: 303px;
+    border: 1px solid #ECDCBB;
+    text-align: center;
+    vertical-align: top;
+    color:#ecdbbf;
+    background: url(../images/zhuye-lxy/shishen_btn_bg_405a749.png) no-repeat center bottom;
+    
+}
+.section-one .god-ph .prev-god a,.section-one .god-ph .next-god a {
+    font-size: 18px;
+    color:#ecdbbf;
+}
+.section-one .god-ph .this-god {
+    display:inline-block;
+    position: relative;
+    width: 940px;
+    height: 320px;
+    margin: 0 40px;
+    background: url(../images/zhuye-lxy/shishen_bg_000bc91.jpg) no-repeat;
+    z-index:-3;
+}
+.section-one .god-ph .this-god .name-god {
+    position:absolute;
+    width: 1220px;
+    height: 558px;
+    bottom: 0;
+    left: -140px;
+    z-index:-2;
+}
+.section-one .god-ph .this-god .paint-god {
+    position:absolute;
+    width: 1220px;
+    height: 558px;
+    bottom: -52px;
+    left: -140px;
+    z-index:-100;
+}
+.section-one .god-ph .prev-god #point-left {
+    position:absolute;
+    right: -30px;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    display:block;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #ECDBBD;
+    background:#fff url(../images/zhuye-lxy/arrow7_81e9fff.png) no-repeat center;
+}
+.section-one .god-ph .next-god #point-right {
+    position:absolute;
+    left: -30px;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    display:block;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #ECDBBD;
+    background:#fff url(../images/zhuye-lxy/arrow8_395366a.png) no-repeat center;
+}
+
+/*************************section two**********************/
+
+.section-two {
+    height: 441px;
+}
+.section-two .safe-world {
+    background-position: -853px -295px;
+}
+.section-two .gonglue-ph {
+    height: 174px;
+}
+.section-two .gonglue-ph a {
+    width: 340px;
+    height: 210px;
+    float: left;
+}
+.section-two .gonglue-ph a .float-two {
+    position: absolute;
+    left: 14px;
+    top: 5px;
+}
+.section-two .gonglue-ph a .float-two span {
+    display:inline-block;
+    width: 14px;
+    height: 67px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    padding:13px 10px;
+    background: #fff;
+    text-align: center;
+    vertical-align: top;
+    box-shadow:1px 1px 1px 1px rgba(232,232,232,.3);
+}
+.section-two .gonglue-ph a .float-two .mt20 {
+margin-top: 20px;
+}
+.section-two .gonglue-ph a img {
+    width: 340px;
+    height: 210px;
+}
+.section-two .gonglue-ph .mr20 {
+    margin-right: 20px;
+}
+.section-two .gonglue-title {
+    height: 263px;
+    border:2px solid #81c0a1;
+    background:url(../images/zhuye-lxy/stategy_bg_4def7a7.jpg) repeat-x center top;
+} 
+.section-two .gonglue-title .mengnew {
+    margin-top: 33px;
+    height: 44px;
+    color:#fff;
+}
+.section-two .gonglue-title .mengnew a {
+    display:inline-block;
+    width: 154px;
+    height: 44px;
+    line-height: 44px;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+}
+.section-two .gonglue-title .mengnew a.active {
+    color:#79BF99;
+    background-color: #fff;
+}
+.section-two .gonglue-title .mengnew a.active span {
+    color:#fff;
+}
+.section-two .gonglue-title  .have-gift a {
+    display:block;
+    margin-right: 37px;
+    margin-top: 11px;
+    width: 163px;
+    height: 44px;
+    border: 2px solid #fff;
+    line-height: 44px;
+    color:#fff;
+    text-align: center;
+}
+.section-two .gonglue-title  .have-gift a:hover {
+    text-decoration: underline;
+}
+.section-two .gonglue-title  .gonglue-comment {
+    width: 1080px;
+    height: 152px;
+    display:none;
+}
+.section-two .gonglue-title  .gonglue-comment.active {
+    display:block;
+}
+.section-two .gonglue-title  .gonglue-comment li {
+    width: 350px;
+    height: 76px;
+}
+.section-two .gonglue-title .gonglue-comment li .comment {
+    margin: 19px 0;
+    border-left: 2px solid #ccc;
+    padding-left: 13px;
+}
+.section-two .gonglue-title .gonglue-comment li .comment p {
+    color: #666;
+}
+.section-two .gonglue-title .gonglue-comment li .comment:hover {
+    border-left: 5px solid #93C4B0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.section-two .gonglue-title .gonglue-comment li .comment:hover h4 {
+    color:#93C4B0;
+}
+
+/*************************section three**********************/
+
+.section-three {
+    height: 527px;
+}
+.section-three .box {
+    margin-top: 68px;
+    height: 487px;
+    background: url(../images/zhuye-lxy/tongren_bg_4e00ea2.jpg) no-repeat left bottom;
+}
+.section-three .safe-world {
+    background-position: -1045px -295px;
+}
+.section-three .minbox .tongren-left {
+    width: 300px;
+
+}
+.section-three .minbox  .hot-active {
+    height: 42px;
+}
+.section-three .minbox .hot-active .hot-title {
+    width: 96px;
+    height: 26px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat -358px -656px;
+}
+.section-three .minbox .tongren-left .hot-active .icon-3 {
+    height: 20px;
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+    margin-top: 2px;
+}
+.section-three .minbox .hot-active .icon-3 a {
+    display:inline-block;
+    width: 14px;
+    height: 20px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat -657px -656px;
+    margin-left: 5px;
+}
+.section-three .minbox .tongren-left .hot-active .icon-3 a.active {
+    background-position: -681px -656px;
+}
+.section-three .minbox .tongren-left .hot-ph li {
+    width: 300px;
+    height: 416px;
+    display:none;
+    background: #fff;
+}
+.section-three .minbox .tongren-left .hot-ph li.active {
+    display:block;
+}
+.section-three .minbox .tongren-right {
+    width: 700px;
+    margin-left: 60px;
+}
+.section-three .minbox .tongren-right .hot-title {
+    background-position: -463px -656px;
+}
+.section-three .minbox .tongren-right  .hot-active .words {
+    font-size: 12px;
+    color:#ccc;
+}
+.section-three .minbox .tongren-right  .hot-active .words a {
+    margin: 0 20px;
+    height: 26px;
+    line-height: 26px;
+    color:#bf9962;
+}
+.section-three .minbox .tongren-right  .hot-active .words a:hover {
+    text-decoration: underline;
+}
+.section-three .minbox .tongren-right .tongren-show ul {
+    display:none;
+}
+.section-three .minbox .tongren-right .tongren-show ul.active {
+    display:block;
+}
+.section-three .minbox .tongren-right .tongren-show li {
+    display:inline-block;
+    margin-right: 20px;
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment {
+    height: 70px;
+    padding: 12px 19px 0;
+    /* background-color: pink; */
+}
+.section-three .minbox .tongren-right .tongren-show .mr0 {
+    margin-right: 0;
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment a {
+    display:block;
+    border-left: 1px solid #000;
+    height: 35px;
+    padding-left: 16px;
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment h4 {
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment p {
+    color:#ccc;
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment a p {
+    height: 16px;
+    line-height: 16px;
+    color:#000;
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment p span {
+    display:inline-block;
+    width: 14px;
+    height: 30px;
+    background: url(../images/zhuye-lxy/love_be82b43.png) no-repeat center;
+    margin-left: 17px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment .f10 {
+    height: 30px;
+    /* line-height: 32px; */
+}
+.section-three .minbox .tongren-right .tongren-show .tongren-comment .number {
+    display:inline-block;
+    height: 30px; 
+    line-height: 34px;
+    margin: 0;   
+    background: url();
+}
+.section-three .box-two {
+    width: 1180px;
+    margin: 12px auto 0;
+    text-align: right;
+    color:#97d1d5;
+}
+.section-three .box-two i {
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat -731px -656px;
+    vertical-align: top;
+}
+.section-three .box-two i:hover {
+    cursor:pointer;
+}
+.section-three .box-two a {
+    display:inline-block;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 20px;
+    margin-left: 5px;
+    color:#97d1d5;
+}
+
+/*************************section four**********************/
+
+.section-four {
+    margin-top: 13px;
+    height: 228px;
+    text-align: center;
+    background: url(../images/zhuye-lxy/ruzhu_bg_1311a36.jpg) no-repeat center bottom;
+}
+.section-four .dachu-title {
+    height: 38px;
+}
+.section-four .dachu-title span {
+    margin: 0 20px;
+    color:#ccc;
+    font-weight: 300;
+    vertical-align: middle;
+}
+.section-four .dachu-title a {
+    display:inline-block;
+    height: 20px;
+    line-height: 20px;
+    color:#97d1d5;
+}
+.section-four .dachu-title i {
+    display:inline-block;
+    width: 21px;
+    height: 17px;
+    background: url(../images/zhuye-lxy/xcx_635afec.png) no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.section-four .dachu-comment {
+    width: 1180px;
+    height: 156px;
+}
+.section-four .dachu-comment li {
+    display:inline-block;
+    margin-right: 20px;
+    width: 220px;
+    height: 156px;
+    background: url(../images/zhuye-lxy/rz_bg_596c03c.jpg) no-repeat center bottom;
+    vertical-align: top;
+}
+.section-four .dachu-comment .mr0 {
+    margin-right: 0;
+}
+.section-four .circle-all {
+    position: relative;
+    width: 220px;
+    height: 156px;
+    text-align: center;
+}
+.section-four .circle-all img {
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    margin-top: 7px;
+}
+.section-four .circle-all p {
+    margin-top: 13px;
+}
+.section-four .circle-all i {
+    position:absolute;
+    top:0px;
+    left: 52px;
+    width: 118px;
+    transform:rotateZ(0deg);
+    height: 118px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat -59px -506px;
+    transition:all 1s;
+}
+.section-four .circle-all i:hover {
+    transform: rotateZ(90deg);
+}
+.section-four .dachu-change {
+    text-align: right;
+    margin-top: 12px;
+}
+.section-four .dachu-change i {
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat -731px -656px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.section-four .dachu-change a {
+    display:inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 40px;
+    color:#97d1d5;
+}
+
+/*************************section five**********************/
+
+.section-five {
+    margin-top: 70px;
+    height: 215px;
+}
+.section-five .box .safe-world {
+    background-position: -916px -295px;
+}
+.section-five .hear-box {
+    width: 1080px;
+    height: 194px;
+    margin-left: 36px;
+    padding-left: 10px;
+    background:url(../images/zhuye-lxy/shiting_bg_735f29c.jpg) no-repeat left bottom;
+}
+.section-five .hear-box li {
+    float:left;
+    margin-left: 20px;
+    width: 250px;
+    height: 140px;
+    background-color: #fff;
+}
+.section-five .hear-box li div {
+    position: relative;
+}
+.section-five .hear-box li div  a  {
+    position: absolute;
+    right:-10px;
+    bottom:-10px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px 0 30px;
+    background: #000 url(../images/zhuye-lxy/au_35379f6.png) no-repeat 10px center;
+    color:#fff;
+}
+.section-five .hear-box li div:hover a {
+    background: #000 url(../images/zhuye-lxy/au_h_a87510a.png) no-repeat 10px center;
+}
+.section-five .hear-box .more-comment {
+    display:block;
+    width: 122px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #c2a060;
+    color:#c2a060;
+    padding: 0 46px;
+    margin:30px auto 0;
+    background-color: #fff;
+}
+.section-five .hear-box .more-comment i {
+    width: 41px;
+    height: 40px;
+    background: url(../images/zhuye-lxy/arrow_245be57.png) no-repeat center;
+}
+
+/*************************section six**********************/
+
+.section-six {
+    margin-top: 45px;
+    height: 538px;
+    background: url(../images/zhuye-lxy/fun_bg_99effa1.jpg) no-repeat center;
+}
+.section-six .safe-world {
+    background-position: -1108px -295px;
+}
+.section-six .fun-box {
+    position: relative;
+}
+.section-six .fun-box .fun-comment {
+    width: 1060px;
+    height: 538px;
+    position: relative;
+    overflow:hidden;
+}
+.section-six .fun-box .fun-comment ul {
+    width: 1840px;
+    height: 538px;
+    position: absolute;
+    left:0;
+}
+.section-six .fun-box .fun-comment ul li {
+    margin-top: 20px;
+    float: left;
+    width: 220px;
+    height: 516px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+/* .section-six .fun-box .fun-comment ul li:hover {
+    margin-top: 0;
+} */
+.section-six .fun-box .fun-button-left {
+        position:absolute;
+        left: -30px;
+        top: 0;
+        bottom: 0;
+        margin:auto;
+        display:block;
+        width: 58px;
+        height: 58px;
+        border: 1px solid #ECDBBD;
+        background:#fff url(../images/zhuye-lxy/arrow7_81e9fff.png) no-repeat center;
+}
+.section-six .fun-box .fun-button-right {
+    position:absolute;
+    right: -30px;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    display:block;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #ECDBBD;
+    background:#fff url(../images/zhuye-lxy/arrow8_395366a.png) no-repeat center;
+}
+
+/*************************section seven**********************/
+
+.section-seven {
+    margin-top: 30px;
+    height: 270px;
+}
+.section-seven .safe-world {
+    margin-top: 20px;
+    background-position: -726px -295px;
+    height: 190px;
+}
+.section-seven .shop-right {
+    width: 1060px;
+    height: 250px;
+    padding-top: 20px;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+.section-seven .shop-right .thing {
+    position: relative;
+    width: 1060px;
+    height: 175px;
+
+}
+.section-seven .shop-right .thing ul {
+    position: absolute;
+    height: 175px;
+    width: 5400px;
+    left: 0;
+}
+.section-seven .shop-right .thing ul li {
+    float: left;
+    width: 250px;
+    height: 175px;
+    margin-right: 20px;
+}
+/* .section-seven .shop-right .thing ul li:hover {
+    margin-top: -20px;
+} */
+.section-seven .shop-right .thing li img {
+    width: 250px;
+    height: 150px;
+}
+.section-seven .shop-right .thing li a {
+    position: relative;
+    display:block;
+    margin-left: 32px;
+    margin-top: -17px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.section-seven .shop-right .thing li a i {
+    position: absolute;
+    height: 40px;
+    border-left: 1px solid #000;
+    left:0;
+    bottom:0px;
+}
+.section-seven .shop-right .thing li a span {
+    display:inline-block;
+    height: 40px;
+    margin-top: 22px;
+    vertical-align: bottom;
+}
+.section-seven .shop-right .down-move {
+    margin-top: 42px;
+    height: 30px;
+    width: 1060px;
+    /* background: pink; */
+    position: relative;
+}
+.section-seven .shop-right .down-move .move-line {
+    display:inline-block;
+    margin-top: 13px;
+    width: 1060px;
+    height: 5px;
+    background: #efefef;
+}
+.section-seven .shop-right .down-move .move-point {
+    position:absolute;    
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #efefef;
+}
+.section-seven .shop-right .down-move .move-box {
+    position:absolute;
+    left: 0;
+    top:0;
+    width: 208px;
+    height: 28px;
+    line-height: 28px;
+    color:#c2a060;
+    border: 1px solid #c2a060;
+    background-color: #fff;
+    text-align: center;
+    user-select: none;
+}
+
+.section-seven .shop-right .down-move .move-box img {
+    height: 9px;
+    width: 6px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/*************************section eight**********************/
+
+.section-eight {
+    margin-top: 77px;
+    height: 290px;
+}
+.section-eight .four-code-bg {
+    height: 239px;
+    background: url(../images/zhuye-lxy/123123.png) no-repeat center bottom;
+}
+.section-eight .four-code-bg .code-box {
+    display:inline-block;
+    width: 237px;
+    height: 239px;
+    margin-left:20px;
+    vertical-align: top;
+}
+.section-eight .four-code-bg .code-box-three {
+    display:inline-block;
+    width: 227px;
+    height: 239px;
+    margin-left:30px;
+    vertical-align: top;
+}
+.section-eight .four-code-bg .border-box {
+    position: relative;
+    width: 176px;
+    height: 146px;
+    margin-top: 45px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    padding-left: 20px;
+}
+.section-eight .four-code-bg .border-box p {
+    display:inline-block;
+    margin: 30px 2px 0;
+    width: 12px;
+    vertical-align: top;
+}
+.section-eight .four-code-bg .border-box h5 {
+    display:inline-block;
+    width: 22px;
+    margin-top: 15px;
+    margin-left: 4px;
+    font:700 22px 'simsun';
+}
+.section-eight .four-code-bg .border-box img {
+    position: absolute;
+    right:-35px;
+    top:-30px;
+    width: 130px;
+    height: 130px;
+}
+.section-eight .four-code-bg .code-box a,.section-eight .four-code-bg .code-box-three a {
+    display:block;
+    margin-left:15px;
+    margin-top: 12px;
+}
+.section-eight .girl {
+    position: relative;
+    display:inline-block;
+    width: 130px;
+    height: 239px;
+    background: url(../images/zhuye-lxy/code_role_bg_58d7f15.png) no-repeat right center;
+}
+.section-eight .girl i {
+    position: absolute;
+    right: -45px;
+    top:55px;
+    width: 202px;
+    height: 233px;
+    background: url(../images/zhuye-lxy/sl_70cf981.png) no-repeat -204px 0;
+    z-index:3;
+}
+/*************************section END**********************/
+
+/*************************footer BEGIN**********************/
+.footer {
+    margin-top: -40px;
+    height: 927px;
+    background: url(../images/zhuye-lxy/bottom_bg_b30cb11.png) no-repeat center;
+}
+.footer .yys-logo {
+    display:inline-block;
+    margin-top: 350px;
+    margin-left: 225px;
+    width: 73px;
+    height: 218px;
+    background: url(../images/zhuye-lxy/index_z_71df05e.png) no-repeat 0 -288px;
+}
+.moon-area {
+    width: 650px;
+    height: 390px;
+    margin-top: 220px;
+}
+.moon {
+    position: relative;
+    padding-left: 300px;
+    width: 356px;
+    height: 356px;
+    /* background: #ccc; */
+}
+.moon img {
+    position: absolute;
+    width: 356px;
+    height: 356px;
+}
+#bling1,#liang,#bgbg,#erweima,#moontop {
+    position: absolute;
+    width: 356px;
+    height: 356px;
+}
+.top-border {
+    position: absolute;
+    /* border: 1px solid #000; */
+    right: 63px;
+    top: 63px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#bling1 {
+    opacity:0;
+    top:-6px;
+    right:6px;
+    background: url(../images/zhuye-lxy/btm1.png) no-repeat center;
+}
+#liang {
+    width: 420px;
+    height: 420px;
+    right: -32px;
+    top: -32px;
+    background: url(../images/zhuye-lxy/btm4.png) no-repeat center;
+}
+#bgbg {
+    background: url(../images/zhuye-lxy/btm5.png) no-repeat center;
+}
+#erweima {
+    top:-9px;
+    right:7px;
+    background: url(../images/zhuye-lxy/btm3.png) no-repeat center;
+    opacity:0;
+    background-size:60%;
+}
+#moontop {
+    top:-94px;
+    right:-94px;
+    background: url(../images/zhuye-lxy/btm2.png) no-repeat center;
+}
+
+.footer .copy {
+    width: 840px;
+    height: 195px;
+    margin: 116px auto 0;
+    /* background-color: pink; */
+}
+.footer .copy .share {
+    height: 45px;
+    text-align: center;
+    color:#fff;
+    /* background-color: #fff; */
+}
+.footer .copy .share a {
+    display:inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: #fff ;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+.footer .copy .share img {
+    margin-top: 3px;
+}
+.footer .copy .introduce {
+    height: 50px;
+}
+.footer .in-left {
+    width: 258px;
+}
+.footer .in-left span {
+    height: 34px;
+    font-size: 34px;
+    border-left: 2px solid red;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+.footer .in-left a .game {
+    width: 118px;
+    height: 32px;
+}
+.footer .in-left a .wy163 {
+    width: 134px;
+    height: 32px;
+}
+.footer .in-middle {
+    width: 94px;
+}
+.footer .in-middle i {
+    display:inline-block;
+    width: 36px;
+    height: 36px;
+    /* background-color: #fff; */
+    margin-left: 8px;
+    text-align: center;
+}
+.footer .in-right {
+    width: 480px;
+    margin-left: 8px;
+    color:#fff;
+}
+.footer .in-right li {
+    float: left;
+    height: 19px;
+}
+.footer .in-right li a  {
+    font-size: 12px;
+    color:#fff;
+}
+.footer .in-right li span {
+    margin: 0 4px;
+}
+.footer .in-right .banquan {
+    display:inline-block;
+    margin-top: 5px;
+}
+.footer .in-right .btn-parent {
+    width: 140px;
+    height: 20px;
+    line-height: 20px;
+    color:#fff;
+    text-align: center;
+    margin-right: 8px;
+    background: #610000;
+    border: 1px solid #fff;
+}
+.footer .warning {
+    margin-top: 15px;
+    height: 95px;
+    font-size: 12px;
+    color:#ccc;
+}
+.footer .warning p {
+    height: 23px;
+}
+.footer .warning p span {
+    color:#fff;
+    font-weight: 700;
+}
+.footer .warning p span:hover{
+    cursor:pointer;
+}
+/*************************footer END**********************/
+
+/*************************copy BEGIN**********************/
+
+/*************************copy END**********************/
